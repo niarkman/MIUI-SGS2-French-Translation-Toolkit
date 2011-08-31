@@ -25,6 +25,9 @@ cd %home%
 if "%count%"=="0" GOTO NoFile
 if "%count%" GTR "1" GOTO TooMuchFiles
 
+:: Création des dossiers de travail et OUT
+mkdir %workdir%
+mkdir %out%
 
 :: Décompression de la rom d'origine
 cls

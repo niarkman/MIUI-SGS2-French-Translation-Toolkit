@@ -1,11 +1,11 @@
 ui_print("                                                ");
 ui_print("************************************************");
 ui_print("                                                ");
-ui_print("              MIUI SGS2 1.8.19 FR               ");
+ui_print("              MIUI SGS2 1.8.26 FR               ");
 ui_print("                                                ");
 ui_print("************************************************");
 ui_print("* TELEPHONE       : SAMSUNG GALAXY S II        *");
-ui_print("* VERSION MIUI    : 1.8.19 beta 6              *");
+ui_print("* VERSION MIUI    : 1.8.26 beta 7              *");
 ui_print("* PACKAGER        : bmarko                     *");
 ui_print("* TRADUCTION      : niark@MAN!                 *");
 ui_print("************************************************");
