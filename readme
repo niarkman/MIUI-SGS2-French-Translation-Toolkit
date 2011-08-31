@@ -1,0 +1,62 @@
+------------
+Informations
+------------
+Ce toolkit permet de traduire en Français une rom MIUI SGS2 (préalablement deodexée)
+
+Le dossier Base_ROM accueil la rom deodexée non traduite (de base). 
+
+La rom doit être nommée Miui-SGS2-<version_et_autres>.zip. Dans le cas contraire
+le script ne trouvera pas d'élément à traduire.
+
+Les fichiers de traduction génériques doivent être intégrés dans le dossier Translation.
+Les variantes (au niveau de la traduction) peuvent être intégrées dans 
+Tools\Common\SGS2\Translation. Ce qui est le cas pour le SGS2.
+
+---------
+Prérequis
+---------
+Environnement Windows (xp, Vista ou Seven)
+Runtime Java en x86 (pour Windows x86 ET x64) <- très important
+Runtime Java en x64 pour Windows x64
+
+Dans le cas d'un environnement x86 il est possible qu'il faille changer
+les fichiers 7zip intégrés dans Tools/7zip par ceux de la version x86.
+
+--------------------------
+Principe de fonctionnement
+--------------------------
+1. Placer la rom à traduire (avec en prefix MIUI-SGS2) dans le dossier Base_ROM
+   Le dossier ne doit contenir qu'une seule rom
+2. Lancer le script Run_SGS2.bat
+3. Saisir le nom (sans extension .zip) de la rom finale (celle que vous désirez obtenir)
+   Elle sera automatiquement suffixée par -signed après signature.
+4. Le script commence par décompresser la rom dans le dossier Workdir
+   puis il décompile les APK qui doivent être traduit
+5. PAUSE
+   Cette pause permet de modifier la traduction avant qu'elle ne soit intégrée
+   dans les APK. Il est recommander d'utiliser un outil de type DiffMerge afin de
+   comparer les fichiers XML présents dans le dossier Translation avec ceux contenus
+   par les dossiers des APK dans Workdir/Decoded
+   Une fois les modifications effectuées il suffit d'appuyer sur une touche
+   pour que le script continu le traitement.
+6. Le script intègre les éléments de traduction génériques (Translation) et spécifiques
+   (Tools/Common/SGS2/Translation), compile les APK et introduit
+   les modifications effectuées dans les APK d'origine (afin de ne pas perdre la signature
+   d'origine des APK).
+7. PAUSE
+   Dans le cas ou il serait nécessaire d'intervenir sur la compilation d'un APK
+8. Le script finalise la création de la rom traduite.
+   Il intégre les fichiers se trouvant dans Tools/Common/All/rom/
+   Il intègre les fichiers spécifiques à la rom SGS2 dans Tools/Common/SGS2/rom/
+9. Le script propose la modification du fichier updater-script (script d'installation
+   de la rom). Il est en général nécessaire de modifier la version. Il est également 
+   FORTEMENT RECOMMANDE de vérifier que l'updater-script d'origine (celui contenu
+   dans la rom d'origine) n'est pas différent au niveau des traitements fondamentaux. 
+10. Le script propose la modification du fichier build.prop. Il est nécessaire d'incorporer
+	les éléments spécifiques du build.prop d'origine (version, etc.) tout en conservant
+	les éléments modifiés (langue, fuseau horaire notamment).
+11. Création de l'archive à proprement parler, et signature.
+    Vous devez trouver deux fichiers dans Output_ROM avec le nom que vous avez
+	donnez au départ. Un <archive>.zip et un autre <archive>-signed.zip. 
+12. Le script vous propose de supprimer l'archive d'origine. En général il faut
+    répondre N.
