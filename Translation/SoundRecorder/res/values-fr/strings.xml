@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Dictaphone</string>
+    <string name="recording">Enregistrement</string>
+    <string name="recording_stopped">Enregistrement stoppé</string>
+    <string name="storage_is_full">Mémoire pleine</string>
+    <string name="max_length_reached">Longueur maximale atteinte</string>
+    <string name="insert_sd_card">Insérez une carte SD</string>
+    <string name="button_ok">OK</string>
+    <string name="timer_format">%02d:%02d</string>
+    <string name="audio_db_title_format">dd-MM-yyyy HH:mm:ss</string>
+    <string name="audio_db_artist_name">Vos enregistrements</string>
+    <string name="audio_db_album_name">Enregistrements audio</string>
+    <string name="audio_db_playlist_name">Mes enregistrements</string>
+    <string name="error_sdcard_access">Impossible d\'accéder à la carte SD</string>
+    <string name="error_app_internal">Erreur interne</string>
+    <string name="error_mediadb_new_record">Impossible de sauvegarder les données audio enregistrées</string>
+    <string name="default_record_name">sans nom</string>
+    <string name="menu_view_record_list">Voir la liste des enregistrements</string>
+    <string name="menu_setting">Paramètres</string>
+    <string name="delete_dialog_title">Désirez-vous réellement supprimer l\'enregistrement courant ?</string>
+    <string name="overwrite_dialog_title">%s existe déjà, désirez-vous le remplacer?</string>
+    <string name="preferences_title">Paramètres</string>
+    <string name="pref_title_record_type">Format d\'enregistrement</string>
+    <string name="prefDialogTitle_recordType">Sélectionnez un format d\'enregistrement</string>
+    <string name="prefDefault_recordType">audio/amr</string>
+    <string name="pref_title_enable_high_quality">Activer la haute qualité</string>
+    <string name="pref_summary_enable_high_quality">Les fichiers audio de haute qualité peuvent avoir une taille supérieure</string>
+    <string name="pref_title_enable_sound_effect">Activer l\'effet sonore</string>
+    <string name="pref_summary_enable_sound_effect">Jouer un effet sonore lorsque l\'état est modifié</string>
+    <string name="notification_recording">Enregistrement</string>
+    <string name="notification_stopped">L\'enregistrement a été stoppé</string>
+    <string name="record_list">Liste des enregistrements</string>
+    <string name="sd_card_not_available">La carte SD est inaccessible</string>
+    <string name="call_record">Enregistrement d\'appel</string>
+    <string name="open_file_explorer">Ouvrir l\'explorateur de fichier</string>
+    <string name="no_file">Pas d\'enregistrement</string>
+</resources>

@@ -1,0 +1,4 @@
+resources.arsc
+classes.dex
+res\*-fr\
+res\*-fr-*\

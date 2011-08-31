@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="tips">
+        <item>Accéder à toutes vos applications\n Appuyez sur le lanceur d\'applications. @drawable/all_apps</item>
+        <item>Rules\n The only rule of CyanogenMod: You dont ask for ETAs.</item>
+        <item>Nightly Builds (Advanced)\n Available on ROM Manager. Do not submit issues on Google Code for these. @drawable/rommanager</item>
+        <item>Faites glisser les applications vers votre écran d\'accueil.\n Appuyez sur une application du lanceur d\'applications jusqu\'à ce qu\'elle vibre.</item>
+        <item>\#blamewes\n Avoid wesgarner at all costs. @drawable/wesgarner</item>
+        <item>Organiser l\'écran d\'accueil\n Appuyez sur un élément et maintenez. Lorsqu\'il vibre, placez-le à l\'endroit souhaité.</item>
+    </string-array>
+    <string-array name="tips2">
+        <item>Ballmer Peak\n Optimal coding ability takes place between a BAC of .129 and .138.</item>
+        <item>Supprimer un élément\n Appuyez sur l\'élément et maintenez. Lorsqu\'il vibre, déplacez-le vers la corbeille. @drawable/trash</item>
+        <item>iPhone\n You\'re holding it wrong. Always.</item>
+        <item>Écrans d\'accueil multiples\n Faites glisser l\'écran vers la droite/gauche. Déplacez les icônes d\'un écran à l\'autre.</item>
+        <item>Number 1 Priority\n Don\'t forget to keep your winzip up to date.</item>
+        <item>Kang [kayng] - (verb)\n Upgraded my winzip br0. Thanks to my patient lady putting up with my devvin. @drawable/kang_truck</item>
+        <item>Definition of Open\n repo init -u git://android.git.kernel.org/platform/manifest.git ; repo sync ; make. @drawable/android_open</item>
+        <item>Catroast\n Always catproof your electronics, cats are bound to pee on them. @drawable/cat_attack</item>
+        <item>Supprimer ce widget ?\n Appuyez dessus et maintenez. Quand il vibre, déplacez-le vers la corbeille.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>Paramètres WIFI</item>
+        <item>Tous les programmes</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>SMS et MMS</item>
+        <item>Musique</item>
+        <item>Enregistreur vocal</item>
+        <item>Navigateur</item>
+        <item>Appareil photo</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>Contacts</item>
+        <item>Journal d\'appels</item>
+        <item>SMS</item>
+        <item>Paramètres système</item>
+        <item>Paramètres WIFI</item>
+        <item>Présentation de bureau</item>
+        <item>Paramètres d\'alarme</item>
+        <item>Notes</item>
+        <item>Blacklist/Whitelist</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>(Données)</item>
+        <item>(Programmes)</item>
+        <item>(Données + Programmes)</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>Contacts</item>
+        <item>Journal d\'appels</item>
+        <item>SMS</item>
+        <item>Paramètres WIFI</item>
+        <item>Notes</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>Contacts</item>
+        <item>Paramètres WLAN</item>
+        <item>Notes</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>Historique des appels</item>
+        <item>SMS</item>
+    </string-array>
+</resources>

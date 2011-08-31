@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mms_config version="4">
+    <int name="maxMessageSize">614400</int>
+    <int name="maxImageHeight">1000</int>
+    <int name="maxImageWidth">1296</int>
+    <string name="uaProfUrl">http://www.htcmms.com.tw/Android/Common/nexusone/ua-profile.xml</string>
+    <string name="userAgent">M700/Android-Mms/0.1</string>
+    <bool name="enableUnlimitedMultipartSMS">true</bool>
+    <int name="smsToMmsTextThreshold">50</int>
+</mms_config>

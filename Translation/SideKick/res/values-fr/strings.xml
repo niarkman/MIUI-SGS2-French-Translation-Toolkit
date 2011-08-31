@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="sidekick_activity_label">SideKick</string>
+    <string name="menu_preferences">Paramètres de recherche</string>
+    <string name="menu_history">Historique des recherches</string>
+    <string name="search_hint">Recherche par mot clé</string>
+    <string name="change_search_setting">Modifier les paramètres de recherche</string>
+    <string name="search_web">Rechercher</string>
+    <string name="search_recent_hint">Recherche récentes</string>
+    <string name="search_no_result_hint">Ne trouve pas votre requête\"%s\"</string>
+    <string name="search_no_result_hint_suggistion">Recommandé：</string>
+    <string name="search_no_result_hint_line1">Vérifiez que les mots sont correctement orthographiés</string>
+    <string name="search_no_result_hint_line2">Avec un autre mot</string>
+    <string name="search_no_result_hint_line3">Essayez des mots plus généraux</string>
+    <string name="history_delete_hint">Appuyez sur supprimer pour effacer l\'historique</string>
+    <string name="search_sources">Paramètres de recherche</string>
+    <string name="search_sources_summary">Rechercher sur le téléphone mobile</string>
+    <string name="input_history">Historique des recherches</string>
+    <string name="delete_input_history">Supprimer toute l\'historique?</string>
+    <string name="search_result_header_hint_search">La recherche a trouvée %d résultats</string>
+    <string name="search_result_header_hint_recent">La recherche a trouvée %d résultats</string>
+    <string name="search_threshold_title">Résultat max pour recherche</string>
+    <string name="search_threshold_infinite">Illimité</string>
+    <string name="search_threshold_ten">10</string>
+    <string name="search_threshold_thirty">30</string>
+    <string name="search_engine_title">Sélectionnez le moteur de recherche</string>
+    <string name="search_engine_google">Google</string>
+    <string name="search_engine_baidu">Baidu</string>
+    <string name="search_history_today">Ajourd\'hui</string>
+    <string name="search_history_yesterday">Hier</string>
+    <string name="default_web_search_engine_google">http://www.google.fr/m/search?q=</string>
+    <string name="default_web_search_engine_baidu">http://m.baidu.com/ssid=0/from=0/bd_page_type=1/s?word=</string>
+    <string name="recent_dialog_buttonAppKiller_summary">MIUI a libéré votre mémoire de %1$s\nmémoire actuellement disponibles: %2$s</string>
+    <string name="recent_dialog_buttonAppKiller">Tuer</string>
+    <string name="recent_dialog_buttonTaskManager">Gérer</string>
+</resources>

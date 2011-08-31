@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="prefEntries_videochat_options">
+        <item>Aucun</item>
+        <item>Chat audio</item>
+        <item>Chat vidéo</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Toujours</item>
+        <item>En mode silencieux</item>
+        <item>Jamais</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="prefEntries_video_notifications">
+        <item>Alerte dans une fenêtre pop-up</item>
+        <item>Notification dans la barre système</item>
+    </string-array>
+    <string-array name="prefValues_video_notifications">
+        <item>popup</item>
+        <item>statusbar</item>
+    </string-array>
+    <string-array name="prefEntries_text_notifications">
+        <item>Alerte dans une fenêtre pop-up</item>
+        <item>Notification de barre d\'état</item>
+        <item>Désactiver</item>
+    </string-array>
+    <string-array name="prefValues_text_notifications">
+        <item>popup</item>
+        <item>statusbar</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="smiley_names">
+        <item>Content</item>
+        <item>Triste</item>
+        <item>Clin d\'œil</item>
+        <item>Tire la langue</item>
+        <item>Surpris</item>
+        <item>Bisou</item>
+        <item>Hurle</item>
+        <item>Cool</item>
+        <item>Argent</item>
+        <item>Embarrassé</item>
+        <item>Gêné</item>
+        <item>Ange</item>
+        <item>Indécis</item>
+        <item>Pleure</item>
+        <item>Motus...</item>
+        <item>Rigole</item>
+        <item>Confus</item>
+        <item>Sourire en coin</item>
+        <item>Mécontent</item>
+        <item>Lunettes de soleil</item>
+        <item>Cœur</item>
+    </string-array>
+    <string-array name="smiley_text">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>:\'(</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>:-/</item>
+        <item>x-(</item>
+        <item>:-|</item>
+        <item>&amp;lt;3</item>
+    </string-array>
+</resources>

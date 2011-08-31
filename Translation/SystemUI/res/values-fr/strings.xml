@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Barre d\'état</string>
+    <string name="status_bar_clear_all_button">Effacer</string>
+    <string name="status_bar_no_notifications_title">Aucune notification</string>
+    <string name="status_bar_ongoing_events_title">En cours</string>
+    <string name="status_bar_latest_events_title">Notifications</string>
+    <string name="battery_low_title">Branchez le chargeur</string>
+    <string name="battery_low_subtitle">Le niveau de la batterie est bas :</string>
+    <string name="battery_low_percent_format">Maximum %d %% restants.</string>
+    <string name="battery_low_why">Utilisation de la batterie</string>
+    <string name="tab_notifications_lable">Notifications</string>
+    <string name="tab_toggles_lable">Paramètres rapides</string>
+    <string name="tab_apps_lable">Programmes</string>
+    <string name="apps_clean_title">nettoyage</string>
+    <string name="apps_clean_current_memory">Mémoire actuellement disponible %1$s</string>
+    <string name="apps_clean_result">Utilisation de la mémoire: %1$s\nActuellement la mémoire disponible est de: %2$s</string>
+    <string name="status_bar_time_format_12">h:mma</string>
+    <string name="status_bar_time_format_24">HH:mm</string>
+    <string name="status_bar_date_format">d MMM</string>
+    <string name="status_bar_date_format_lock">E d MMM</string>
+    <string name="usb_accessory_permission_prompt">Autoriser l\'application %1$s à accéder au périphérique USB ?</string>
+    <string name="usb_device_confirm_prompt">Lancer %1$s quand ce périphérique USB est connecté ?</string>
+    <string name="usb_accessory_confirm_prompt">Lancer %1$s lorsque le périphérique USB est connecté ?</string>
+    <string name="usb_accessory_uri_prompt">Aucune application installée n\'utilise ce périphérique USB. Pour plus d\'informations %1$s</string>
+    <string name="title_usb_accessory">Périphérique USB</string>
+    <string name="label_view">Visualiser</string>
+    <string name="always_use_accessory">Utiliser ce périphérique USB par défaut</string>
+    <string name="usb_mode_notification">Stockage USB</string>
+    <string name="usb_mode_mount_storage_summary">Les applications et les données présentes sur la carte SD ne seront plus accessibles.</string>
+    <string name="usb_mode_dont_ask">Ne plus demander</string>
+    <string name="usb_mode_mount_storage_title">Monter le stockage de données USB</string>
+    <string name="mount_storage">Monter</string>
+    <string name="dismount_storage">Démonter</string>
+    <string name="move_data_to_sdcard_title">Migrer les données vers la carte SD</string>
+    <string name="move_data_to_sdcard_message">Les photos, les captures d\'écran, les sons et autres données seront placées de façon permanente sur la carte SD afin d\'assurer la fluidité du système.</string>
+</resources>

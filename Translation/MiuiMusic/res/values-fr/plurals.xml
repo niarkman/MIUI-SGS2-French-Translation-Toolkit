@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="Nsongs">
+        <item quantity="other">%d Morceaux</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d Album</item>
+        <item quantity="one">1 Album</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Supprimé %d Morceaux.</item>
+        <item quantity="one">Supprimé 1 Morceaux.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d morceaux ont été ajouté à la playlist.</item>
+        <item quantity="one">1 Morceaux été ajouté à la playlist.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavoriteplaylist">
+        <item quantity="other">%d morceaux ont été ajouté à la liste des morceauxs préférées.</item>
+        <item quantity="one">1 morceaux ajouté à la liste des morceauxs préférées.</item>
+    </plurals>
+</resources>
